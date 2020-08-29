@@ -1,8 +1,8 @@
  
   ![license badge](https://img.shields.io/badge/license--blue)
-  # YAY 
+  # title 
   ## Description 
-  yesss 
+  description 
   ## Table of Contents 
   * [Installation](#installation) 
   * [Usage](#usage) 
@@ -18,7 +18,7 @@
   
   ## Contributing
   
-  ## Testing
+  ## Tests
    
   ## Questions 
   Send questions to 

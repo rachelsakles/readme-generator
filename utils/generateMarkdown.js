@@ -20,7 +20,7 @@ function generateMarkdown({ license, title, description, installation, usage, co
   ${license}
   ## Contributing
   ${contributing}
-  ## Testing
+  ## Tests
   ${tests} 
   ## Questions 
   Send questions to ${questions}
