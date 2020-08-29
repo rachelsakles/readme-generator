@@ -1,7 +1,7 @@
-const inquire = require("inquirer");
 const fs = require("fs");
 const markdown = require("./utils/generateMarkdown");
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 
 
@@ -75,6 +75,9 @@ function init() {
     inquirer.prompt(questions) 
     .then(function (response){ 
         console.log(response);
+        let markdownText = generateMarkdown(response)
+        writeToFile("README.md", markdownText)  
+        
     })
 
 }
